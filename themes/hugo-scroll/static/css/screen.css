@@ -450,7 +450,7 @@ ul li {
 .inner {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -463,6 +463,10 @@ ul li {
 /* ==========================================================================
       4. General - The main styles for the the theme
       ========================================================================== */
+
+.mobilelogo {
+  display: none;
+}
 
 /* Big cover image on the home page */
 #site-head {
@@ -500,9 +504,10 @@ ul li {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
+  font-weight: 500;
   margin: 10px 0 10px 0;
-  font-size: 5rem;
-  letter-spacing: -1px;
+  font-size: 7rem;
+  letter-spacing: 0rem;
 }
 
 .blog-description {
@@ -529,7 +534,7 @@ ul li {
 .post {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0rem auto;
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -546,7 +551,9 @@ ul li {
   opacity: 1;
   position: fixed;
   top: 40px;
-  left: 2%;
+  background-color: white;
+  padding: 40px;
+  left: 40px;
   z-index: 99999;
   font-family: "Open Sans Condensed", sans-serif;
   text-transform: uppercase;
@@ -758,7 +765,7 @@ a.fn-item.active {
 .pagination {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 900px;
   margin: 4rem auto;
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
@@ -921,13 +928,22 @@ a.fn-item.active {
       ========================================================================== */
 
 @media only screen and (max-width: 1130px) {
+  .logo {
+    display: none;    
+  }
+
+  .mobilelogo {
+    display: block;
+  }
+
+
   .fixed-nav {
+    background-color: white;
     opacity: 1;
     position: fixed;
     top: 0px;
     left: 0px;
     z-index: 99999;
-    background: #f2efe8;
     width: 100%;
     text-align: center;
     padding: 4px;

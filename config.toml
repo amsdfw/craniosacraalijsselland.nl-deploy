@@ -13,8 +13,6 @@ title = "Cranio Sacraal IJsselland &#8211; Enthousiast, energiek, warm, integer 
 
 
 [params]
-    intro = "Cranio Sacraal <span style='color:#0084ff'> Ijsselland"
-
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
     copyright = "© Craniosacraalijsselland.nl"

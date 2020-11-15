@@ -1,9 +1,8 @@
 ---
-title: "Contact Openemen"
-weight: 6
+title: "Praktijk Gegevens"
+weight: 7
 header_menu: true
 ---
-
 
 Praktijk gegevens
 
